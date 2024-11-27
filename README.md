@@ -1,15 +1,16 @@
-openapi: 3.1.0
+< openapi: 3.1.0
 info:
   title: Eileen_Aylin API
-  description: Personal and Professional Overview of Eileen_Aylin
+  description: A personal overview of Eileen_Aylin, highlighting skills, interests, and hobbies.
   version: "1.0.0"
 paths:
   /about:
     get:
-      summary: Retrieve general information
+      summary: General Information
+      description: Retrieve basic personal details.
       responses:
         "200":
-          description: General Information
+          description: Personal details retrieved successfully.
           content:
             application/json:
               example:
@@ -17,10 +18,11 @@ paths:
                 year: "Sophomore at CS"
   /interests:
     get:
-      summary: Retrieve interests
+      summary: Interests
+      description: Retrieve a list of interests.
       responses:
         "200":
-          description: List of Interests
+          description: List of interests retrieved successfully.
           content:
             application/json:
               example:
@@ -35,10 +37,11 @@ paths:
                   - "Netflix"
   /skills:
     get:
-      summary: Retrieve skills
+      summary: Skills
+      description: Retrieve a list of programming skills, frameworks, and tools.
       responses:
         "200":
-          description: List of Skills
+          description: List of skills retrieved successfully.
           content:
             application/json:
               example:
@@ -58,10 +61,11 @@ paths:
                   - "VS Code"
   /hobbies:
     get:
-      summary: Retrieve hobbies
+      summary: Hobbies
+      description: Retrieve a list of hobbies, both IT-related and non-IT-related.
       responses:
         "200":
-          description: List of Hobbies
+          description: List of hobbies retrieved successfully.
           content:
             application/json:
               example:
@@ -74,4 +78,4 @@ paths:
                   - "Playing Guitar/Saz"
                   - "Badminton"
                   - "Bouldering"
-                  - "Swimming"
+                  - "Swimming" >
