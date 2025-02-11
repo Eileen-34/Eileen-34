@@ -1,15 +1,27 @@
+# Eileen_Aylin API
+
+This is a personal API that provides an overview of Eileen_Aylin's skills, interests, and hobbies.
+
+## OpenAPI Specification
+
+Below is the OpenAPI 3.1.0 specification for this API:
+
+```yaml
 openapi: 3.1.0
 info:
   title: Eileen_Aylin API
   description: A personal overview of Eileen_Aylin, highlighting skills, interests, and hobbies.
   version: "1.0.0"
   contact:
-    email: oymak.eileen@gmail.com
-    url: https://eileenaylin.com](https://github.com/Eileen-34
+    email: eileen.aylin@example.com
+    url: https://eileenaylin.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
 servers:
-  - url: https://api.eileen_aylin.com/v1
+  - url: https://api.eileenaylin.com/v1
     description: Production server
-  - url: https://sandbox.api.eileen_aylin.com/v1
+  - url: https://sandbox.api.eileenaylin.com/v1
     description: Sandbox server for testing
 paths:
   /about:
@@ -65,8 +77,11 @@ paths:
                     items:
                       type: string
                     example:
+                      - "Playing Guitar/Saz"
                       - "Badminton"
                       - "Bouldering"
+                      - "Swimming"
+                      - "Netflix"
         "500":
           description: Internal server error
           content:
@@ -113,7 +128,6 @@ paths:
                       - "Android Studio"
                       - "Xcode"
                       - "IntelliJ IDEA"
-                      - "CLion"
                       - "VS Code"
                   learning:
                     type: array
@@ -158,10 +172,10 @@ paths:
                     items:
                       type: string
                     example:
+                      - "Playing Guitar/Saz"
                       - "Badminton"
                       - "Bouldering"
                       - "Swimming"
-                      - "Playing Guitar/Saz"
         "500":
           description: Internal server error
           content:
