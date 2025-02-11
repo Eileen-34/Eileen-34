@@ -4,7 +4,7 @@ info:
   description: A personal overview of Eileen_Aylin, highlighting skills, interests, and hobbies.
   version: "1.0.0"
   contact:
-    email: eileenpotterstark@gmail.com
+    email: oymak.eileen@gmail.com
     url: https://eileenaylin.com](https://github.com/Eileen-34
 servers:
   - url: https://api.eileen_aylin.com/v1
