@@ -10,14 +10,11 @@ Below is the OpenAPI 3.1.0 specification for this API:
 openapi: 3.1.0
 info:
   title: Eileen_Aylin API
-  description: A personal overview of Eileen_Aylin, highlighting skills, interests, and hobbies.
+  description: A personal overview of Eileen_Aylin, including skills, interests, and hobbies.
   version: "1.0.0"
   contact:
-    email: eileen.aylin@example.com
-    url: https://eileenaylin.com
-  license:
-    name: MIT
-    url: https://opensource.org/licenses/MIT
+    email: oymak.eileenLgmail.com
+    url: -
 servers:
   - url: https://api.eileenaylin.com/v1
     description: Production server
@@ -71,17 +68,15 @@ paths:
                       type: string
                     example:
                       - "Coding in different languages"
-                      - "App Development"
+                      - "App Development: Android and iOS"
                   Non-IT-related:
                     type: array
                     items:
                       type: string
                     example:
-                      - "Playing Guitar/Saz"
                       - "Badminton"
                       - "Bouldering"
                       - "Swimming"
-                      - "Netflix"
         "500":
           description: Internal server error
           content:
@@ -129,6 +124,8 @@ paths:
                       - "Xcode"
                       - "IntelliJ IDEA"
                       - "VS Code"
+                      - "CLion"
+                      - "WebStorm"
                   learning:
                     type: array
                     items:
@@ -172,10 +169,10 @@ paths:
                     items:
                       type: string
                     example:
-                      - "Playing Guitar/Saz"
                       - "Badminton"
                       - "Bouldering"
                       - "Swimming"
+                      - "Playing Guitar/Saz"
         "500":
           description: Internal server error
           content:
