@@ -1,10 +1,7 @@
 # Eileen_Aylin API
 
-This is a personal API that provides an overview of Eileen_Aylin's skills, interests, and hobbies.
+This is a personal API that provides an overview of my skills, interests, and hobbies.
 
-## OpenAPI Specification
-
-Below is the OpenAPI 3.1.0 specification for this API:
 
 ```yaml
 openapi: 3.1.0
@@ -134,6 +131,9 @@ paths:
                       - "HTML"
                       - "CSS"
                       - "C++"
+                      - "React"
+                      - "TypeScript"
+                      - "Script languages"
         "500":
           description: Internal server error
           content:
