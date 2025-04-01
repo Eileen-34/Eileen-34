@@ -1,8 +1,5 @@
 # Eileen_Aylin API
 
-This is a personal API that provides an overview of my skills, interests, and hobbies.
-
-
 ```yaml
 openapi: 3.1.0
 info:
@@ -10,7 +7,7 @@ info:
   description: A personal overview of Eileen_Aylin, including skills, interests, and hobbies.
   version: "1.0.0"
   contact:
-    email: oymak.eileenLgmail.com
+    email: oymak.eileen@gmail.com
     url: -
 servers:
   - url: https://api.eileenaylin.com/v1
@@ -130,8 +127,9 @@ paths:
                     example:
                       - "HTML"
                       - "CSS"
+                      - "Tailwind.css"
                       - "C++"
-                      - "React"
+                      - "React/Next.js"
                       - "TypeScript"
                       - "Script languages"
         "500":
